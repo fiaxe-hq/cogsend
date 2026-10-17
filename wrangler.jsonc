@@ -32,15 +32,15 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "cogsend1",
-			"database_id": "72323ccb-c3eb-4e56-bf78-cefa39e2476a",
+			"database_name": "cogsend",
+			"database_id": "",
 			"migrations_dir": "drizzle"
 		}
 	],
 	"r2_buckets": [
 		{
 			"binding": "MEDIA",
-			"bucket_name": "cogsend-media","preview_bucket_name": "cogsend-media"
+			"bucket_name": "cogsend-media"
 		}
 	],
 	"main": "worker/_worker.js",
